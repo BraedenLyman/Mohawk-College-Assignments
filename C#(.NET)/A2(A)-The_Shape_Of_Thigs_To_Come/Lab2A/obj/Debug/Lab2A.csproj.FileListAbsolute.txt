@@ -1,0 +1,7 @@
+D:\Microsoft Visual Studio - files\Lab2A\Lab2A\bin\Debug\Lab2A.exe.config
+D:\Microsoft Visual Studio - files\Lab2A\Lab2A\bin\Debug\Lab2A.exe
+D:\Microsoft Visual Studio - files\Lab2A\Lab2A\bin\Debug\Lab2A.pdb
+D:\Microsoft Visual Studio - files\Lab2A\Lab2A\obj\Debug\Lab2A.csproj.AssemblyReference.cache
+D:\Microsoft Visual Studio - files\Lab2A\Lab2A\obj\Debug\Lab2A.csproj.CoreCompileInputs.cache
+D:\Microsoft Visual Studio - files\Lab2A\Lab2A\obj\Debug\Lab2A.exe
+D:\Microsoft Visual Studio - files\Lab2A\Lab2A\obj\Debug\Lab2A.pdb

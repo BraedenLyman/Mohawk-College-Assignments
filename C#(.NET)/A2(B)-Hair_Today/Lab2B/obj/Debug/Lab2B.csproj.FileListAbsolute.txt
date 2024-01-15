@@ -1,0 +1,10 @@
+D:\Microsoft Visual Studio - files\Lab2B\Lab2B\bin\Debug\Lab2B.exe.config
+D:\Microsoft Visual Studio - files\Lab2B\Lab2B\bin\Debug\Lab2B.exe
+D:\Microsoft Visual Studio - files\Lab2B\Lab2B\bin\Debug\Lab2B.pdb
+D:\Microsoft Visual Studio - files\Lab2B\Lab2B\obj\Debug\Lab2B.csproj.AssemblyReference.cache
+D:\Microsoft Visual Studio - files\Lab2B\Lab2B\obj\Debug\Lab2B.Properties.Resources.resources
+D:\Microsoft Visual Studio - files\Lab2B\Lab2B\obj\Debug\Lab2B.csproj.GenerateResource.cache
+D:\Microsoft Visual Studio - files\Lab2B\Lab2B\obj\Debug\Lab2B.csproj.CoreCompileInputs.cache
+D:\Microsoft Visual Studio - files\Lab2B\Lab2B\obj\Debug\Lab2B.exe
+D:\Microsoft Visual Studio - files\Lab2B\Lab2B\obj\Debug\Lab2B.pdb
+D:\Microsoft Visual Studio - files\Lab2B\Lab2B\obj\Debug\Lab2B.Braes_hair_salon.resources
