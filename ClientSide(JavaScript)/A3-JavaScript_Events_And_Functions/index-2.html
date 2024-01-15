@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- 
+        This html doucment is to display functions created from javascript doucment 
+        index_js.js. The display is to show three images with a randomized counter button
+        and a count down timer that constantly runs. This document also contains a user input
+        section as well as a counter for counting image rotations.
+        
+        File: index.html
+        Name: Braeden Lyman
+        Student ID: 000370695
+        Date: July 13th, 2023
+    -->
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="index_styling.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <title>Document</title>
+    <script src="index_js.js"></script>
+</head>
+<body>
+    <div class="container-md whole-page bg-dark text-light">
+       
+        <header> 
+            <h1>Braeden's Assignment 3</h1>
+        </header>
+
+        <div class="imageContainer">
+            <div class="row">
+                <div class="col"><img src="#" alt="Image1" id="imgOne" class="faded"></div>
+                <div class="col"><img src="#" alt="Image2" id="imgTwo" class="faded"></div>
+                <div class="col"><img src="#" alt="Image3" id="imgThree" class="faded"></div>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col-md-4"> 
+            </div>
+
+            <div class="col-md-4" id="btnGp">
+                <button id="btn" type="button" class="btn btn-outline-warning" onclick="randomizeButtonImg()">Randomize</button>
+            </div>
+
+            <div class="col-md-4"> 
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-4" id="numberId">
+                <input id="numInput" type="number">
+                <div id="errorMsg"> </div>
+            </div>
+                
+            <div class="col-md-4" id="randCountDwnId">
+                <span id="count" class="countdown"></span>
+            </div>
+                
+            <div class="col-md-4" id="counter1">
+                <p>Image has updaded <span id="counter"> </span> times</p>
+            </div>
+        </div>       
+    
+        <footer>
+            <P>Name: Braeden Lyman</P>
+            <p>Student Id: 000370695</p>
+            <p>Year: 2023</p>
+        </footer>
+    </div>
+</body>
+</html>

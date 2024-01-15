@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- 
+        The purpose of this document is to display the content created
+        from request.js. This document contains user to choose mario
+        or starwars and choose either three of the buttons. Each
+        button sends a requests to the csunix server and
+        recieves information depending on the button choice.
+        
+        Name: Braeden Lyman
+        Student ID: 000370695
+        Date: Augest 06, 2023
+    -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <title>Document</title>
+    <link href="styling.css" rel="stylesheet">
+    <script src="request.js"></script>
+</head>
+<body class="whole-page bg-dark text-light">
+    <div class="container-md">
+        <div class="row">
+            <div class="col-2"></div>
+            <div class="col-8"><h1>Make Your choice: Mario or Starwars?</h1></div>
+            <div class="col-2"></div>
+        </div>
+        
+        <div class="row">
+            <div class="col-2"></div>
+            <div class="col-8">
+                    <label for="mario" class="labels">Mario</label>
+                    <input id="mario" class="inputs" name="choice" type="radio" value="mario" checked>
+                    <label for="starwars" class="labels">Starwars</label>
+                    <input id="starwars" class="inputs" name="choice" type="radio" value="starwars">
+            </div>
+            <div class="col-2"></div>
+        </div>
+
+        <div class="row">
+            <div class="col-2"></div>
+            <div class="col-8">
+                <button class="btn btn-warning" id="firstB">First</button>
+			    <button class="btn btn-warning" id="secondB">Second</button>
+                <button class="btn btn-warning" id="thirdB">Third</button>
+            </div>        
+            <div class="col-2"></div>
+        </div>
+
+        <div class="row">
+            <div class="col-12" id="firstF"></div>
+        </div>
+
+        <div class="row">
+            <div class="col-2"></div>
+            <div class="col-8">
+                <div id="secondF" class="row"></div>
+                <div id="copyrightInfo"></div>
+            </div>
+            <div class="col-2"></div>
+        </div>
+
+        <div class="row">
+            <div class="col-2"></div>
+            <div class="col-8">
+                <div class="table">
+                    <table class="thirdF"></table>
+                </div>
+                <div id="copyrightInfo2"></div>
+            </div>
+            <div class="col-2"></div>
+        </div>
+
+    </div>
+</body>
+</html>

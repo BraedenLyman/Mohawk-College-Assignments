@@ -1,0 +1,88 @@
+@charset "UTF-8";
+
+/**
+This document is for styling the elemnts in index.html.
+This document is composed of styling the title (h1), 
+users choice radio buttons and labels, and the three 
+different fetches.
+
+Name: Braeden Lyman
+Student ID: 000370695
+Date: Augest 06, 2023
+**/
+
+/* H1 Styles */
+h1{
+    text-align: center;
+}
+
+/* User Choice Styles */
+.marioOrStarwars{
+    margin-top: 10px;
+    font-size: 20px;
+    word-spacing: 5px;
+}
+
+/* First Fetch Styles */
+#firstF{
+    text-align: center;
+    color: orange;
+    font-size: 25px;
+}
+
+/* Second Fetch Styles (SF) */
+.col-8{
+    margin-top: 10px;
+    text-align: center;
+}
+
+/* H2 Styles (SF) */
+h2{
+    text-align: center;
+    font-size: 15px;
+}
+
+/* Image Styles (SF) */
+img{
+    height: auto;
+    width: 100%;
+    padding: 20px;
+}
+
+/* CopyRight Info (SF) */
+#copyrightInfo{
+    text-align: center;
+    font-style: italic;
+    font-size: 15px;
+}
+
+/* Third Fetch Styles (TF) */
+.thirdF{
+    border: 2px solid black;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Table Header (TF) */
+th{
+    background-color: crimson;
+}
+
+/* Table Data (TF) */
+td{
+    border: 2px solid black;
+    padding: 10px;
+    background-color: orange;
+}
+
+/* Link (TF) */
+.urlStyle{
+    font-size: 12px;
+}
+
+/* Copyright Info (TF) */
+#copyrightInfo2{
+    text-align: center;
+    font-style: italic;
+    font-size: 15px;
+}

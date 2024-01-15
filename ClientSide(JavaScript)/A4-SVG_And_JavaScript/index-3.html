@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--
+        This document is to display the SVG Graphics from BraedenGame.js
+        for the user to inteact with the game. This document also contains
+        Boostrap 5.3.1 for styling.
+
+        File Name: index.html
+        By: Braeden Lyman
+        Student ID: 000370695
+    -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <link href="BraedenGame-styling.css" rel="stylesheet">
+    <script src="BraedenGame.js"></script>
+    <title>Braeden's Game</title>
+</head>
+<body class="whole-page bg-dark text-light">
+    <div class="container-md"> 
+
+        <div class="row">
+            <div class="col-md-12">
+                <h1>Braeden's Game</h1>
+                <h3>Object Of the Game: </h3>
+                <h4>Follow the path to the <span id="colorGreen">green square</span> without being hit!</h4>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col-md-4">
+                <!-- Start Game Button -->
+                <button type="button" class="btn btn-warning" id="startButton">Start Game!</button>
+                <!-- Up Arrow Button -->
+                <button type="button" class="btn btn-outline-warning" id="upButton"> Up </button>
+                <div class="groupButtons">
+                    <!-- Left Arrow Button -->
+                    <button type="button" class="btn btn-outline-warning" id="leftButton"> Left </button>
+                    <!-- Down Arrow Button -->
+                    <button type="button" class="btn btn-outline-warning" id="downButton"> Down </button>
+                    <!-- Right Arrow Button -->
+                    <button type="button" class="btn btn-outline-warning" id="rightButton"> Right </button>
+                </div>
+            </div>
+       
+            <div class="col-md-4">
+                <!-- Svg Grapics Area -->
+                <svg id="svgArea" width="500" height="500"></svg>
+            </div>
+
+            <div class="col-md-4">
+                <div class="currentLevelId">
+                    <!-- Current Level -->
+                    <div>Current Level: <span id="currentLevel"> </span></div> 
+                    <!-- User input for chosing a color -->
+                    <div>Choose a color: <input type="color" id="colorPick" value="#0000FF"></div>
+                </div>  
+            </div>
+        </div>
+    </div>
+    <footer>&copy; Copyright 2023 - Braeden Lyman - Mohawk College</footer>
+</body>
+</html>

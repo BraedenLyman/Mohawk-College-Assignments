@@ -1,0 +1,75 @@
+/**
+* This file is to style the element in the DOM
+* to make items line up and look nice.
+*
+* File Name: BraedenGame-styling.css
+* By: Braeden Lyman
+* Student Id: 000370695
+**/
+
+@charset "UTF-8";
+
+/* Header Styles */
+
+/* H1 Styles */
+div h1{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* H2 Styles */
+div h3{
+    text-align: center;
+}
+
+/* H3 Styles */
+div h4{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+/* H3 span text color */
+#colorGreen{
+    color: green;
+}
+
+/* SVG Area Styles */
+#svgArea{
+    margin-top: 10px;;
+    border: 10px solid orange;
+    border-radius: 25px;
+}
+
+/* Start Button Styles */
+#startButton{
+    margin-left: 20px;
+    margin-top: 40px;
+}
+
+/* Arrow Key Button Styles */
+.groupButtons{
+    margin-left: 150px;
+    margin-top: -40px;
+}
+
+/* Up Button Styles */
+#upButton{
+    margin-top: -50px;
+    margin-left: 85px;
+}
+
+/* Current Level Counter Styles */
+.currentLevelId{
+    margin-top: 40px;
+    text-align: center;
+}
+
+#currentLevel{
+    margin-top: 10px;
+}
+
+/* Footer Styles */
+footer{
+    margin-top: 40px;
+    text-align: center;
+}

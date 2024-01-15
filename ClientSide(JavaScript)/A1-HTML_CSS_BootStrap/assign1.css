@@ -1,0 +1,160 @@
+@charset "UTF-8";
+
+/**
+	Assignment 1 - assign1.css page
+	Date: May 30th, 2023
+	Student Name: Braeden Lyman
+	Student #: 000370695
+	
+	This page is the CSS formating for index.html and page2.html
+	The purpose for this page is to make the webpages look proffesional
+	by styling them with CSS properties.
+**/
+
+
+/** Main Css **/
+div 
+{
+	background-color: grey;
+}
+
+/** h1 Css **/
+div h1
+{
+	color: Orange;
+	text-align: center;
+}
+
+/** h4 Css **/
+div h4
+{
+	text-align: center;
+}
+
+/** Nav Css **/
+div nav
+{
+	margin-bottom: 40px;
+}
+
+/** Hover effect for links in the header **/
+div nav li a:hover
+{
+	animation: hoverChange 2s infinite;
+}
+
+/** Nav ul Css **/
+div nav ul
+{
+	list-style-type: none;
+	text-align: center;
+	border-bottom: 2px solid black;
+	padding: 20px;
+	margin-top: 25px;
+}
+
+/** Nav lists Css **/
+div nav ul li
+{
+	display: inline;
+}
+
+/** Nav links Css **/
+div nav a
+{
+	text-decoration: none;
+	color: black;
+	border: 2px solid black;
+	border-radius: 10px;
+	padding: 10px;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+/** ol and li Css for page2.html embedded list **/
+div.Jits ol li
+{
+	font-weight: bold;
+	color: orange;
+}
+
+/** Ul and li Css for page2.html embedded list **/
+div.Jits ul li
+{
+	font-weight: normal;
+	color: black;
+}
+
+/** h2 Css for both .html pages **/
+div.Jits h2, div.Sparing h2
+{
+	text-align: center;
+	padding: 5px;
+}
+
+/** Images in the main Css **/
+div img
+{
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 40px;
+}
+
+/** Footer Css **/
+div footer
+{
+	text-align: center;
+	border-top: 2px solid orange;
+}
+
+/** Nav h1 - putting the animation on the .html pages **/
+span.colorChangeTitle
+{
+	animation: colorChangeTitle 1s infinite;
+	animation-timing-function: linear;
+}
+
+/** Nav h4 - putting the animation on the .html pages **/
+span.colorChangeSubTitle
+{
+	animation: colorChangeSubTitle 5s infinite;
+	animation-timing-function: linear;
+	animation-delay: 1s;
+}
+
+/** Nav h4 - puttting the animation on the .html pages **/
+span.colorChangeSubTitle2
+{
+	animation: colorChangeSubTitle2 5s infinite;
+	animation-timing-function: linear;
+	animation-delay: 4s;
+}
+
+/** Nav h1 - animation for changing color **/
+@keyframes colorChangeTitle
+{
+    50%   	{color: orange}
+    100%    {color: black}
+}
+
+/** Nav h4 - animation for changing color **/
+@keyframes colorChangeSubTitle
+{
+    50%   	{color: orange}
+    100%    {color: black }
+}
+
+/** Nav h4 - animation for changing color **/
+@keyframes colorChangeSubTitle2
+{
+    50%   	{color: orange}
+    100%    {color: black}
+}
+
+/** Nav - hover over links animation **/
+@keyframes hoverChange
+{
+    50%   	{color: orange}
+    100%    {color: black}
+}

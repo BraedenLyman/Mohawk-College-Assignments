@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgb(75, 75, 75);
+    margin: 40px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+body h1 {
+    padding-bottom: 30px;
+    color: orange;
+}
+
+div.card {
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+div.card-header {
+    background-color: rgb(34, 34, 34);;
+}
+
+div.card-body {
+    background-color: chocolate;
+    border-radius: 5px;
+}
+
+input {
+    background-color: grey;
+    color: white;
+}
+
+textarea {
+    background-color: antiquewhite;
+    text-align: center;
+}

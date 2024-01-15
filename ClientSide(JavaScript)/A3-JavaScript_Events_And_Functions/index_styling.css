@@ -1,0 +1,106 @@
+@charset "UTF-8";
+
+/**  This CSS doucment is to style the index.html page. 
+        File: index.html
+        Name: Braeden Lyman
+        Student ID: 000370695
+        Date: July 13th, 2023
+**/
+
+* {
+    margin-top: 30px;
+}
+
+/** Header Styles **/
+header h1 {
+    color: orange;
+    text-align: center;
+    padding-top: 50px;
+}
+
+/** Body Styles **/
+body div.row {
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+/** Image Styles **/
+body div.imageContainer {
+margin-left: 160px;;
+}
+
+/** Randomize Button Styles **/
+#btnGp {
+    text-align: center;
+}
+
+#btnGp #btn {
+   font-size: 20px;;
+   padding-left: 40px;
+   padding-right: 40px;
+}
+
+/** User Input Styles **/
+#numberId {
+    text-align: center;
+}
+
+#numInput {
+    background-color: orange;
+}
+
+/** Image Counter Tracker Styles **/ 
+#count {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+ 
+#counter1 {
+    text-align: center;
+}
+
+/** Count Down Timer Styles **/
+.countdown {
+    text-align: center;
+    transition: background-color 0.5s ease;
+    width: 30px;
+    height: 30px;
+}
+
+#randCountDwnId {
+    text-align: center;
+}
+
+.green {
+    background-color: green;
+    color: white;
+}
+
+.yellow {
+    background-color: yellow;
+    color: black;
+}
+
+.red {
+    background-color: red;
+    color: white;
+}
+
+/** Image Transition Animation **/
+@keyframes fade {
+    0%      { opacity: 0; }
+    100%    {opacity: 1;}
+}
+
+.faded {
+    animation: fade 2s ease-in-out 0s;
+}
+
+/** Footer Styles **/
+footer {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
