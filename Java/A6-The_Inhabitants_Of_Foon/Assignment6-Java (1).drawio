@@ -1,0 +1,118 @@
+<mxfile host="app.diagrams.net" modified="2023-07-20T22:14:13.815Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="CZZ6QPDDcC34tnVxhh2K" version="21.6.2" type="google">
+  <diagram name="Page-1" id="47k2SwmTMFmjMcWzr21O">
+    <mxGraphModel grid="0" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="BcZeQxCE_d7y5jbN5LAh-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=block;endFill=0;" edge="1" parent="1" source="BcZeQxCE_d7y5jbN5LAh-1" target="BcZeQxCE_d7y5jbN5LAh-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BcZeQxCE_d7y5jbN5LAh-1" value="Monster" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;swimlaneFillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="164" y="-21" width="534" height="473" as="geometry" />
+        </mxCell>
+        <mxCell id="BcZeQxCE_d7y5jbN5LAh-97" value="+ clanAffiliation : String&lt;br&gt;+ ferocity : Int&lt;br&gt;+ increaseFerocity : int&lt;br&gt;+ decreaseFerocity : int&lt;br&gt;+ defence: int&lt;br&gt;+ increaseDefence : int&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;+ decreaseDefence : int&lt;br&gt;+ magic : int&lt;br&gt;+ increaseMagic : int&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;+ decreaseMagic : int&lt;br&gt;- treasure : int&lt;br&gt;- health : int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="BcZeQxCE_d7y5jbN5LAh-1">
+          <mxGeometry y="26" width="534" height="182" as="geometry" />
+        </mxCell>
+        <mxCell id="BcZeQxCE_d7y5jbN5LAh-28" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="BcZeQxCE_d7y5jbN5LAh-1">
+          <mxGeometry y="208" width="534" height="9" as="geometry" />
+        </mxCell>
+        <mxCell id="BcZeQxCE_d7y5jbN5LAh-98" value="+ Monster(clanAffiliation : String)&amp;nbsp;&lt;br&gt;+ Monster(clanAffiliation : String, ferocity : int, defence : int, magic : int, treasure : int, health : int)&amp;nbsp;&lt;br&gt;+ setIncreaseFerocity() : int&lt;br&gt;+ setDecreaseFerocity() : int&lt;br&gt;+ setIncreaseDefence() : int&lt;br&gt;+ setDecreaseDefence() : int&lt;br&gt;+ setIncreaseMagic() : int&lt;br&gt;+ setDecreaseMagic() : int&lt;br&gt;+ setIncreaseHealth(amount : int) : void&lt;br&gt;+ setDecreaseHealth(amount : int) : void&lt;br&gt;+ isAlive() : boolean&lt;br&gt;+ attack(opponent : Monster) : double&lt;br&gt;+ getAttackScore() : double&lt;br&gt;+ getDefence() : int&lt;br&gt;+ getHealth() : int&lt;br&gt;+ getTreasure() : int&lt;br&gt;+ setTreasure(treasure : int) : void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="BcZeQxCE_d7y5jbN5LAh-1">
+          <mxGeometry y="217" width="534" height="256" as="geometry" />
+        </mxCell>
+        <mxCell id="BcZeQxCE_d7y5jbN5LAh-50" value="Foon" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="351" y="-108" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BcZeQxCE_d7y5jbN5LAh-99" value="Manticore" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-515" y="660" width="551" height="114" as="geometry" />
+        </mxCell>
+        <mxCell id="BcZeQxCE_d7y5jbN5LAh-102" value="+ Manticore(clanAffiliation : String)&lt;br&gt;+ Maticore(clanAffiliation : String, ferocity : int, defence : int, magic : int, treasure : int, health : int)&lt;br&gt;+ setClanAffiliation(clanAffiliation : String) : void&lt;br&gt;+ getAttackScore() : double&lt;br&gt;+ toString() : String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="BcZeQxCE_d7y5jbN5LAh-99">
+          <mxGeometry y="26" width="551" height="88" as="geometry" />
+        </mxCell>
+        <mxCell id="BcZeQxCE_d7y5jbN5LAh-103" value="Goblin" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="162.5" y="642" width="537" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="BcZeQxCE_d7y5jbN5LAh-106" value="- enemy : Goblin" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="BcZeQxCE_d7y5jbN5LAh-103">
+          <mxGeometry y="26" width="537" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="BcZeQxCE_d7y5jbN5LAh-105" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="BcZeQxCE_d7y5jbN5LAh-103">
+          <mxGeometry y="52" width="537" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="BcZeQxCE_d7y5jbN5LAh-104" value="+ Goblin(clanAffiliation : String)&lt;br&gt;+ Goblin(clanAffiliation : String, ferocity : int, defence : int, magic : int, treasure : int, health : int)&lt;br&gt;+ getEnemye() : Goblin&lt;br&gt;+ toString() : String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="BcZeQxCE_d7y5jbN5LAh-103">
+          <mxGeometry y="60" width="537" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="BcZeQxCE_d7y5jbN5LAh-107" value="Orc" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="810" y="642" width="537" height="191" as="geometry" />
+        </mxCell>
+        <mxCell id="BcZeQxCE_d7y5jbN5LAh-108" value="- warlord: Warlord&lt;br&gt;- infantry: Infantry" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="BcZeQxCE_d7y5jbN5LAh-107">
+          <mxGeometry y="26" width="537" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="BcZeQxCE_d7y5jbN5LAh-109" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="BcZeQxCE_d7y5jbN5LAh-107">
+          <mxGeometry y="67" width="537" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="BcZeQxCE_d7y5jbN5LAh-110" value="+ Orc(clanAffiliation : String)&lt;br&gt;+ Orc(clanAffiliation : String, ferocity : int, defence : int, magic : int, treasure : int, health : int)&lt;br&gt;+ getLeadership() : int&lt;br&gt;+ setIncreaseLeadership() : int&lt;br&gt;+ setDecreaseLeadership() : int&lt;br&gt;+ getWarlordCommander() : String&lt;br&gt;+ toString() : String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="BcZeQxCE_d7y5jbN5LAh-107">
+          <mxGeometry y="75" width="537" height="116" as="geometry" />
+        </mxCell>
+        <mxCell id="BcZeQxCE_d7y5jbN5LAh-111" value="Warlord" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1144" y="946" width="537" height="285" as="geometry" />
+        </mxCell>
+        <mxCell id="BcZeQxCE_d7y5jbN5LAh-112" value="- leadership : int&lt;br&gt;- infantry1 : Infantry&lt;br&gt;- infantry2 : Infantry&lt;br&gt;- infantry3 : Infantry&lt;br&gt;- infantry4 : Infantry&lt;br&gt;- infantry5 : Infantry" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="BcZeQxCE_d7y5jbN5LAh-111">
+          <mxGeometry y="26" width="537" height="96" as="geometry" />
+        </mxCell>
+        <mxCell id="BcZeQxCE_d7y5jbN5LAh-113" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="BcZeQxCE_d7y5jbN5LAh-111">
+          <mxGeometry y="122" width="537" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="BcZeQxCE_d7y5jbN5LAh-114" value="+ Warlord(clanAffiliation : String)&lt;br&gt;+ Warlord(clanAffiliation : String, ferocity : int, defence : int, magic : int, treasure : int, health : int)&lt;br&gt;+ getLeadership() : int&lt;br&gt;+ setLeadership(leaddership : int) : int&lt;br&gt;+ setIncreaseLeadership() : int&lt;br&gt;+ treasureLeadership() : int&lt;br&gt;+ setDecreaseLeadership() : int&lt;br&gt;+ getAttackScore() : double&lt;br&gt;+ getBattleCry() : int&lt;br&gt;+ toString() : String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="BcZeQxCE_d7y5jbN5LAh-111">
+          <mxGeometry y="130" width="537" height="155" as="geometry" />
+        </mxCell>
+        <mxCell id="BcZeQxCE_d7y5jbN5LAh-115" value="Infantry" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="552" y="946" width="537" height="96" as="geometry" />
+        </mxCell>
+        <mxCell id="BcZeQxCE_d7y5jbN5LAh-118" value="+ Infantry(clanAffiliation : String)&lt;br&gt;+ Infantry(clanAffiliation : String, ferocity : int, defence : int, magic : int, treasure : int, health : int)&lt;br&gt;+ getWarlordCommander() : String&lt;br&gt;+ toString() : String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="BcZeQxCE_d7y5jbN5LAh-115">
+          <mxGeometry y="26" width="537" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="BcZeQxCE_d7y5jbN5LAh-119" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;exitX=0.454;exitY=-0.01;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.35;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="BcZeQxCE_d7y5jbN5LAh-115" target="BcZeQxCE_d7y5jbN5LAh-110">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="797" y="933" as="sourcePoint" />
+            <mxPoint x="998" y="852" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BcZeQxCE_d7y5jbN5LAh-120" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;entryX=0.663;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.533;exitY=-0.014;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="BcZeQxCE_d7y5jbN5LAh-111" target="BcZeQxCE_d7y5jbN5LAh-110">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1365" y="907" as="sourcePoint" />
+            <mxPoint x="1165" y="842" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BcZeQxCE_d7y5jbN5LAh-121" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;exitX=0.467;exitY=-0.01;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="BcZeQxCE_d7y5jbN5LAh-107" target="BcZeQxCE_d7y5jbN5LAh-98">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1003" y="552" as="sourcePoint" />
+            <mxPoint x="380" y="497" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1061" y="598" />
+              <mxPoint x="604" y="598" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BcZeQxCE_d7y5jbN5LAh-123" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;" edge="1" parent="1" source="BcZeQxCE_d7y5jbN5LAh-103" target="BcZeQxCE_d7y5jbN5LAh-98">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="581" as="sourcePoint" />
+            <mxPoint x="472" y="495" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="420" y="574" />
+              <mxPoint x="420" y="574" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BcZeQxCE_d7y5jbN5LAh-124" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;exitX=0.525;exitY=-0.026;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.225;entryY=1.008;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="BcZeQxCE_d7y5jbN5LAh-99" target="BcZeQxCE_d7y5jbN5LAh-98">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-226" y="627" as="sourcePoint" />
+            <mxPoint x="284" y="464" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-226" y="577" />
+              <mxPoint x="284" y="577" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
