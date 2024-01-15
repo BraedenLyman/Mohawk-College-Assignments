@@ -1,0 +1,10 @@
+D:\Microsoft Visual Studio - files\Lab3B\Lab3B\bin\Debug\Lab3B.exe.config
+D:\Microsoft Visual Studio - files\Lab3B\Lab3B\bin\Debug\Lab3B.exe
+D:\Microsoft Visual Studio - files\Lab3B\Lab3B\bin\Debug\Lab3B.pdb
+D:\Microsoft Visual Studio - files\Lab3B\Lab3B\obj\Debug\Lab3B.csproj.AssemblyReference.cache
+D:\Microsoft Visual Studio - files\Lab3B\Lab3B\obj\Debug\Lab3B.Properties.Resources.resources
+D:\Microsoft Visual Studio - files\Lab3B\Lab3B\obj\Debug\Lab3B.csproj.GenerateResource.cache
+D:\Microsoft Visual Studio - files\Lab3B\Lab3B\obj\Debug\Lab3B.csproj.CoreCompileInputs.cache
+D:\Microsoft Visual Studio - files\Lab3B\Lab3B\obj\Debug\Lab3B.exe
+D:\Microsoft Visual Studio - files\Lab3B\Lab3B\obj\Debug\Lab3B.pdb
+D:\Microsoft Visual Studio - files\Lab3B\Lab3B\obj\Debug\Lab3B.Braes_Hair_Salon.resources

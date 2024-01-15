@@ -1,0 +1,7 @@
+D:\Microsoft Visual Studio - files\Lab3A\Lab3A\bin\Debug\Lab3A.exe.config
+D:\Microsoft Visual Studio - files\Lab3A\Lab3A\bin\Debug\Lab3A.exe
+D:\Microsoft Visual Studio - files\Lab3A\Lab3A\bin\Debug\Lab3A.pdb
+D:\Microsoft Visual Studio - files\Lab3A\Lab3A\obj\Debug\Lab3A.csproj.AssemblyReference.cache
+D:\Microsoft Visual Studio - files\Lab3A\Lab3A\obj\Debug\Lab3A.csproj.CoreCompileInputs.cache
+D:\Microsoft Visual Studio - files\Lab3A\Lab3A\obj\Debug\Lab3A.exe
+D:\Microsoft Visual Studio - files\Lab3A\Lab3A\obj\Debug\Lab3A.pdb
