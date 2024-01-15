@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<!--
+			Outdoor Adventure Seminars page
+			Author: Braeden Lyman
+			Student Id: 000370695
+			File Name: seminars.html
+		-->
+		<meta charset="UTF-8">
+		<link href="adventurestyles.css" rel="stylesheet">
+		<link href="mobile.css" rel="Stylesheet">
+		<link href="printstyles.css" rel="stylesheet" media="print">
+		<title>Outdoor Adventure Seminars</title>
+		<style>
+		#legendCap
+		{
+			text-align: left;
+		}
+		#scheduleCap
+		{
+			caption-side: bottom;
+			text-align: right
+		}
+		.legendT
+		{
+			margin-right: 12%;
+			margin-left: 12%;
+			margin-bottom: 15px;
+			font-size: 20px;
+		}
+		.Time
+		{
+			background-color: #002759;
+			color: white;
+			padding: 1em;
+			font-size: 14px;
+			width: 90px;
+		}
+		.Day
+		{
+			background-color: #DDEEFF;
+			padding: 1em;
+			font-size: 15px;
+			width: 90px;
+		}
+		.Beginner
+		{
+			background-color: orchid;
+			padding: 1em;
+			font-size: 15px;
+			width: 90px;
+		}
+		.Long
+		{
+			background-color: Cyan;
+			padding: 1em;
+			font-size: 15px;
+			width: 90px;
+		}
+		.Hiking
+		{
+			background-color: #FFFACD;
+			padding: 1em;
+			font-size: 15px;
+			width: 90px;
+		}
+		.Camping
+		{
+			background-color: #F4AF60;
+			padding: 1em;
+			font-size: 15px;
+			width: 90px;
+		}
+		.NoActive
+		{
+			background-image: url(images/dust.jpg);
+			text-align: center;
+			font-weight: bold;
+			padding: 1em;
+			font-size: 15px;
+			width: 90px;
+		}
+		.Empty
+		{
+			padding: 1em;
+			width: 90px;
+		}
+		.B1
+		{
+			background-color: orchid;
+			border-style: none;
+			width: 10px;
+		}
+		.B2
+		{
+			border-style: none;
+		}
+		.L1
+		{
+			background-color: Cyan;
+			border-style: none;
+			width: 10px;
+		}
+		.L2
+		{
+			border-style: none;
+		}
+		.H1
+		{
+			background-color: #FFFACD;
+			border-style: none;
+			width: 10px;
+		}
+		.H2
+		{
+			border-style: none;
+		}
+		.C1
+		{
+			background-color: #F4AF60;
+			border-style: none;
+			width: 10px;
+		}
+		.C2
+		{
+			border-style: none;
+		}
+		.schedule,tr,th,td
+		{
+			border: 1px solid black;
+			border-collapse: collapse;
+		}
+		.schedule
+		{
+			margin: auto;
+		}
+		</style>
+	</head>
+	<body>
+		<header>
+				<h1>Outdoor Adventure Seminars</h1>
+				<h1>2022/2023</h1>
+		</header>
+		<main>	
+			<nav class="no-print">
+				<ul>
+					<li><a href="#">About Us</a></li>
+					<li><a href="#">Travel</a></li>
+					<li><a href="#">Photos</a></li>
+					<li><a href="#">Shop</a></li>
+					<li><a href="reviews.html">Reviews</a></li>
+					<li><a href="seminars.html">Seminars</a></li>
+					<li><a href="#">Events</a></li>
+				</ul>
+			</nav>
+				<table class="legendT">
+					<caption id="legendCap">Legend:</caption>
+						<tbody>
+							<tr>
+								<th class="B1"></th>
+								<td class="B2">Beginner Cycling</td>
+								<th class="L1"></th>
+								<td class="L2">Long Distance Cycling</td>
+								<th class="H1"></th>
+								<td class="H2">Hiking</td>
+								<th class="C1"></th>
+								<td class="C2">Camping</td>
+							</tr>
+						</tbody>
+				</table>
+				<table class="schedule">
+					<caption id="scheduleCap">Schedule is subject to change</caption>
+						<tbody>
+							<tr>
+								<th class="Time">Day</th>
+								<th class="Time">7 am - 9 am</th>
+								<th class="Time">9 am - 11 am</th>
+								<th class="Time">11 am - 12 pm</th>
+								<th class="Time">12 pm - 2 pm</th>
+								<th class="Time">2 pm - 4 pm</th>
+								<th class="Time">6 pm - 8 pm</th>
+								<th class="Time">8 pm - 10 pm</th>
+							</tr>
+							<tr>
+								<th class="Day">Monday</th>
+								<td class="Beginner">Beginner Cycling</td>
+								<td class="Hiking">Hiking</td>
+								<td class="Camping" colspan="5">Camping</td>
+							</tr>
+							<tr>
+								<th class="Day">Tuesday</th>
+								<td class="NoActive" colspan="7">Reserved for groups</td>
+							</tr>
+							<tr>
+								<th class="Day">Wednsday</th>
+								<td class="Long" rowspan="2">Long Distance Cycling Part 1</td>
+								<td class="Empty"></td>
+								<td class="Beginner">Beginner Cycling</td>
+								<td class="Camping" rowspan="2">Camping in Asia</td>
+								<td class="Long" rowspan="2">Long Distance Cycling Part 2</td>
+								<td class="Hiking" colspan="2" rowspan="3">Hiking</td>
+							</tr>
+							<tr>
+								<th class="Day">Thursday</th>
+								<td class="Camping">Camping</td>
+								<td class="Empty"></td>
+							</tr>
+							<tr>
+								<th class="Day">Friday</th>
+								<td class="Camping" rowspan="4">Camping in Europe</td>
+								<td class="Beginner" colspan="2">Beginner Cycling</td>
+								<td class="Empty"></td>
+								<td class="Empty"></td>
+							</tr>
+							<tr>
+								<th class="Day">Saturday</th>
+								<td class="Hiking" colspan="3" rowspan="2">Hiking</td>
+								<td class="Beginner">Beginner Cycling</td>
+								<td class="Long" colspan="2" rowspan="2">Long Distance Cycling Part 1 and 2</td>
+							</tr>
+							<tr>
+								<th class="Day">Sunday</th>
+								<td class="Empty"> </td>
+							</tr>
+							<tr>
+								<th class="Day">Holidays</th>
+								<td class="Long" colspan="2">Long Distance Cycling</td>
+								<td class="NoActive" colspan="4">No Seminars</td>
+							</tr>
+						</tbody>
+				</table>
+		</main>
+		<footer class="no-print">
+			<img src="images/outdooradventurehorizontal.png" alt="footerimg">
+		</footer>
+	</body>
+</html>

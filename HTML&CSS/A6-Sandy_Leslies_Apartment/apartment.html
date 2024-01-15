@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<link href="apartment_layout.css" rel="stylesheet">
+		<link href="mobile.css" rel="stylesheet">
+		<link href="print.css" rel="stylesheet" media="print">
+		<title>Sandy and Leslie's apartment</title>
+	</head>
+	<body>
+		<header>
+			<h1>Sandy and Leslie's Apartment</h1>
+			<p>Click a room for a detailed view.</p>
+			<map name="image_map" class="no-print">
+				<img id="no-print" src="images/apartmentfloorplan.jpg" alt="FloorPlan" usemap="#image_map">
+				<area alt="Bedroom1" title="Bedroom 1" href="Bedroom.html" coords="43,107,183,268" shape="rect">
+				<area alt="LivingRoom" title="Living Room" href="Livingroom.html" coords="195,108,345,265" shape="rect">
+				<area alt="Kitchen" title="Kitchen" href="Kitchen.html" coords="188,291,289,393" shape="rect">
+				<area alt="DiningRoom" title="Dining Room" href="Diningroom.html" coords="344,338,50" shape="circle">
+				<area alt="Bedroom2" title="Bedroom 2" href="Bedroom.html" coords="390,109,395,238,491,237,496,311,580,310,554,105,472,105" shape="poly">
+				<area alt="Apartment" title="Apartment" href="apartment.html" shape="default">
+			</map>
+			<ul>
+				<li><a href="apartment.html">Apartment</a></li>
+				<li>|</li>
+				<li><a href="Bedroom.html">Bedroom 1</a></li>
+				<li>|</li>
+				<li><a href="Bedroom.html">Bedroom 2</a></li>
+				<li>|</li>
+				<li><a href="Diningroom.html">Dining Room</a></li>
+				<li>|</li>
+				<li><a href="Kitchen.html">Kitchen</a></li>
+				<li>|</li>
+				<li><a href="Livingroom.html">Living Room</a></li>
+			</ul>
+		</header>
+		<main>
+		<section>
+			<div class="Welcome">
+				<h2>Welcome Message</h2>
+				<audio controls>
+				<source src="audio/apartment.mp3" type="audio/mpeg">
+				<source src="audio/apartment.ogg" type="audio/ogg">
+				</audio>
+				<p>
+				Transcript: Hello. Welcome to our apartment. You’ll really enjoy living here.
+				The rooms are spacious and the apartment building amenities are fantastic. 
+				We look forward to hearing from you!
+				</p>
+			</div>
+			<div class="Services">
+				<h2>Apartment services:</h2>
+				<table>
+					<tbody>
+						<tr class="TabTitle">
+							<th>Service</th>
+							<th>Days/Hours</th>
+						</tr>
+						<tr>
+							<td>Gym</td>
+							<td rowspan="2">
+							Monday-Friday 6am - 10pm<br>
+							Saturday 8am - 8pm<br>
+							Sunday 8am - 5pm
+							</td>
+						</tr>
+						<tr>
+							<td>Pool</td>
+						</tr>
+						<tr>
+							<td>Laundry</td>
+							<td>24/7</td>
+						</tr>
+						<tr>
+							<td colspan="2">Please do not allow people you do not know to use these facilities.</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+			<div class="Location">
+				<h2>Location</h2>
+				<img src="images/location.png" alt="map">
+			</div>
+			<div class="Survey">
+				<h2>Survey</h2>
+				<form action="https://csunix.mohawkcollege.ca/tooltime/showit.pl" method="post">
+				<input type="hidden" name="formname" value="Sandy and Leslie's Apartment Data">
+					<p>
+					How did you find out about this apartment? Check any that apply:
+					</p>
+					<div class="SurveyItems">
+						<input type="checkbox" id="Web" name="Web">
+						<label for="Web">Web Search</label>
+						<input type="checkbox" id="Friend" name="friend">
+						<label for="Friend">Friend</label>
+						<input type="checkbox" id="Paper" name="Paper">
+						<label for="Paper">News Paper</label>
+					</div>
+					<div class="SurveyButtons">
+						<input type="submit" value="Submit"> <input type="reset" value="Reset Form">
+					</div>
+				</form> 
+			</div>
+		</section>
+		<h2>Gallery</h2>
+			<div class="gallery">
+					<figure>
+						<figcaption>Balcony</figcaption>
+						<img src="images/balcony_sm.jpg" alt="Sm_Balcony">
+					</figure>
+					<figure>
+						<figcaption>Bathroom</figcaption>
+						<img src="images/bathroom_sm.jpg" alt="Sm_Bathroom">
+					</figure>
+					<figure>
+						<figcaption>Bedroom</figcaption>
+						<img src="images/bedroom_sm.jpg" alt="Sm_Bedroom">
+					</figure>
+					<figure>
+						<figcaption>Dining Room</figcaption>
+						<img src="images/diningroom_sm.jpg" alt="Sm_DinningRoom">
+					</figure>
+					<figure>
+						<figcaption>Kitchen</figcaption>
+						<img src="images/kitchen_sm.jpg" alt="Sm_Kitchen">
+					</figure>
+					<figure>
+						<figcaption>Living Room</figcaption>
+						<img src="images/livingroom_sm.jpg" alt="Sm_LivingRoom">
+					</figure>
+			</div>
+		</main>
+		<footer>
+			<p>For motre information contact: <a href="mailto:apartment@example.com">apartment@example.com</a> or <a href="tel:905.555.1234">(905)-555-1234</a></p>
+			<p>&#169; Sandy and Leslie 2022</p>
+		</footer>
+	</body>
+</html>

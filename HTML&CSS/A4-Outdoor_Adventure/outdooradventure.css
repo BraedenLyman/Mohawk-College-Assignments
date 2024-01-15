@@ -1,0 +1,331 @@
+@charset "UTF-8";
+ /*
+	Style Sheet for Outdoor Adventure 
+	Author: Braeden Lyman
+	Student ID: 000370695
+	Filename: outdooradventure.css
+ */
+ 
+ *
+ {
+	 margin: 0;
+	 padding: 0;
+ }
+ 
+ /*
+ =============
+ Header Styles
+ =============
+  */
+  
+ header
+ {
+	display: grid;
+	grid-template-columns: auto auto auto;
+	grid-template-rows: auto;
+	grid-template-areas: "left middle right";
+ }
+
+header > .left
+{
+	justify-self: start;
+	align-self: center;
+	grid-area: left;
+	display: flex;
+}
+
+.buttons
+{
+	display: flex;
+	justify-content: space-around;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.buttons li
+{
+	margin-left: 2em;
+	padding: 7px 1em 7px 1em;
+	background-color: #0172BA;
+	color: white;
+	border: none;
+	border-radius: 20px 20px 20px 20px;
+}
+
+.buttons a
+{
+	color: white;
+	text-decoration: none;
+	font-family: sans-serif;
+}
+
+.buttons li:hover
+{
+	background-color: #089247;
+}
+
+header > .middle
+{
+	justify-self: center;
+	align-self: center;
+	grid-area: middle;
+}
+
+header > .right
+{
+	justify-self: end;
+	align-self: center;
+	grid-area: right;
+	display: flex;
+}
+
+.right
+{
+	display: flex;
+}
+
+.right > a > img
+{
+	margin-right: 0.5em;
+}
+
+/*
+================
+Navigaton Styles
+================
+*/
+
+nav
+{
+	top: 0.5em;
+	background: #CEECFE;
+	padding: 1em;
+	border-top: 3px solid #0172BA;
+	border-bottom: 3px solid #0172BA;
+	position: sticky;
+}
+
+.Navlinks
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.Navlinks li
+{
+	margin-right: 20px;
+	margin-left: 20px;
+	padding: 7px 2em 7px 2em;
+	border-radius: 25px 25px 25px 25px;
+	background-color: white;
+	border: 3px solid #0172BA;
+}
+
+.Navlinks a 
+{
+	color: #0172BA;
+	text-decoration: none;
+	font-family: sans-serif;
+}
+
+.Navlinks > li:hover
+{
+	background-color: #003557;
+}
+
+/*
+===================
+Main Content Styles
+===================
+*/
+
+main 
+{
+	display: grid;
+	grid-template-columns: 200px 1fr minmax(200px,5%);
+	grid-template-rows: auto;
+	gap: 2em;
+	padding: 1em 10% 1em 10%;
+	grid-template-areas: "left middle right";
+}
+
+body
+{
+	background-color: white;
+	max-width: 100%;
+}
+
+.h2
+{
+	text-align: center;
+	background-color: #0172BA;
+	color: white;
+	margin-bottom: 0.5em;
+	font-family: sans-serif;
+}
+
+p 
+{
+	margin-top: 1em;
+	margin-bottom: 1em;
+	font-family: sans-serif;
+}
+
+main .left
+{
+	justify-self: center;
+	grid-area: left;
+}
+
+main .left img
+{
+	padding-bottom: 2em;
+}
+
+main .middle 
+{
+	justify-self: center;
+	grid-area: middle;
+}
+
+.right
+{
+	display: block;
+}
+
+.right > p
+{
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+}
+
+.bottom-text
+{
+	display: grid;
+	grid-column: 1 /span 3;
+	border-top: 2px solid #0172BA;
+	border-bottom: 2px solid #0172BA;
+}
+
+.bottom-text h4
+{
+	text-align: center;
+	font-family: sans-serif;
+}
+
+.bottom-text p
+{
+	margin-top: 2px;
+	font-size: 12px;
+}
+
+/*
+=====================
+	Footer Styles
+=====================
+*/
+
+footer
+{
+	display: grid;
+	grid-template-columns: min-content auto auto auto auto;
+	grid-template-rows: auto auto;
+	grid-auto-flow: row;
+	align-content: end;
+	grid-template-areas: "img list1 list2 list3 list4" " img list5 list6 list7 empty";
+	border-top: 3px solid #0172BA;
+	border-bottom: 3px solid #0172BA;
+	background-color: #CEECFE;
+	padding-bottom: 2em;
+	padding-top: 2em;
+	margin-bottom: 1em;
+	gap: 2em;
+	font-family: sans-serif;
+}
+
+.f3
+{
+	border-bottom: 2px solid #0172BA;
+	text-align: start;
+}
+
+.img
+{
+	grid-area: img;
+	
+}
+
+.list1
+{
+	grid-area: list1;
+}
+
+.list1 ul
+{
+	list-style-type: none;
+}
+
+.list2
+{
+	grid-area: list2;
+}
+
+.list2 ul
+{
+	list-style-type: none;
+}
+
+.list3
+{
+	grid-area: list3;
+}
+
+.list3 ul
+{
+	list-style-type: none;
+}
+
+.list4
+{
+	grid-area: list4;
+}
+
+.list4 ul
+{
+	list-style-type: none;
+}
+
+.list5
+{
+	grid-area: list5;
+}
+
+.list5 ul
+{
+	list-style-type: none;
+}
+
+.list6
+{
+	grid-area: list6;
+}
+
+.list6 ul
+{
+	list-style-type: none;
+}
+
+.list7
+{
+	grid-area: list7;
+}
+
+.list7 ul
+{
+	list-style-type: none;
+}

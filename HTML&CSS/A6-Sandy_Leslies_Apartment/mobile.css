@@ -1,0 +1,148 @@
+@charset "UTF-8";
+
+*
+{
+	margin: 0px;
+	padding: 0px;
+}
+
+/*Vertical Layout*/
+@media only screen and (max-width: 600px)
+{
+/*Header Styles*/
+header
+{
+	font-family: sans-serif;
+}
+header h1
+{
+	text-align: center;
+	margin-bottom: 20px;
+}
+header p
+{
+	display: none;
+}
+header img
+{
+	display: none;
+}
+header ul
+{
+	text-align:center;
+	margin-bottom: 20px;
+}
+header li:nth-of-type(even)
+{
+	display: none;
+}
+
+/*Main Styles*/
+body
+{
+	font-family: sans-serif;
+	margin: 10px;
+}
+section
+{
+	display: grid;
+	grid-template-rows: auto auto auto auto;
+}
+div.Survey, div.Survey h2
+{
+	grid-row: 1;
+	margin-bottom: 20px;
+}
+div.Welcome
+{
+	grid-row: 2;
+}
+div.Services
+{
+	grid-row: 3
+}
+div.Location
+{
+	grid-row: 4;
+}
+div.Location img
+{
+	height: 80%;
+	width: 50%;
+}
+h2
+{
+	background-color: gold;
+	padding: 5px;
+}
+div.SurveyItems label
+{
+	margin-left: 5px;
+	margin-right: 5px;
+}
+div.SurveyItems input
+{
+	margin-top: 10px;
+}
+
+div.SurveyButtons
+{
+	margin-top: 10px;
+}
+div.Welcome, div.Welcome h2, div.Welcome audio
+{
+	margin-bottom: 20px;
+}
+table
+{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	width: 90%;
+}
+
+table,th,tr,td
+{
+	border: 2px solid black;
+	border-collapse: collapse;
+	padding: 5px;
+}
+
+table tr:nth-of-type(5)
+{
+	background-color: Aquamarine;
+}
+div.Location, div.Location h2
+{
+	margin-bottom: 20px;
+}
+div.gallery
+{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+div.gallery img
+{
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 15px;
+}
+div.gallery figcaption
+{
+	background-color: darkorange;
+	color: white;
+	padding: 5px;
+	font-weight: bold;
+	margin-top: 50px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+
+/*Footer Styles*/
+footer
+{
+	text-align: center;
+	margin-top: 50px;
+}
+}

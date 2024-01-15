@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+/*
+	Print Stylesheet for Outdoor Adventure Seminars/Reviews
+	Author: Braeden Lyman
+	Student ID: 000370695
+	Filename: printstyles.css
+ */
+@media print
+
+/*Print Styles*/
+
+/*Main*/
+{
+main
+{
+	color: black;
+}
+#BLTrip
+{
+	page-break-before: always;
+}
+/*Nav and Footer*/
+.no-print
+{
+	display: none;
+}
+}

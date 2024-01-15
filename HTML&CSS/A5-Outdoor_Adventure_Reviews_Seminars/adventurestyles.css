@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+/*
+	Stylesheet for Outdoor Adventure Seminars/Reviews
+	Author: Braeden Lyman
+	Student ID: 000370695
+	Filename: adventurestyles.css
+ */
+ 
+/*Reset*/
+ *
+ {
+	 margin: 0;
+	 padding: 0;
+ }
+/*Header Styles*/
+header
+{
+	font-family: sans-serif;
+	background-color: #E9EFFF;
+	text-align: center;
+	margin-top:10px;
+	margin-bottom: 35px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+/*Main Styles*/
+main
+{
+	font-family: sans-serif;
+}
+/*Footer Styles*/
+footer
+{
+	margin-top: 2px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 20px;
+	border-top: 2px solid black;
+}
+footer img
+{
+	display: block;
+	margin: auto;
+}

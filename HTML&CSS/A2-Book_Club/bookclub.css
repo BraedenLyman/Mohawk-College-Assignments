@@ -1,0 +1,60 @@
+@charset "utf-8";
+
+/*
+		Lab 2 Assignment -Braeden Lyman's Book Club Reading List
+		
+		Style Sheet for the layout of the Braeden Lyman's Book CLub Reading List Home Page
+		Author: Braeden Lyman
+		Student Number: 000370695
+		
+		Filename: bookclub.css
+*/
+
+/* Heading Styles */
+
+h1
+ {
+	color: black;
+	background-color: orange;
+	font-family: sans-serif;
+	font-size: 200%;
+	text-align: center;
+}
+
+h2
+{
+	color: black;
+	background-color: lightgrey;
+	font-family: sans-serif;
+	font-size: 150%;
+}
+
+/* HTML and Body Styles */
+
+section
+{
+	color: black;
+	background-color: violet;
+	font-family: sans-serif;
+}
+
+
+/* Horizontal Navigation Styles */
+
+nav
+{
+	font-size: 100%;
+	word-spacing: 1em;
+}
+
+/* Footer Styles */
+
+footer
+ {
+	color: black;
+	background-color: orange;
+	font-family: sans-serif;
+	font-size: 100%;
+	text-align: center;
+}
+ 

@@ -1,0 +1,157 @@
+@charset "UTF-8";
+ /*
+	Style Sheet for Burlington Recycle Information
+	Author: Braeden Lyman
+	Student Number: 000370695
+	Filename: recyclestylesheet.css
+ */
+
+/* Header */ 
+	   header
+        {
+            padding-top:0.2em;
+			padding-bottom:0.2em;
+			background-color:limegreen;
+            text-align:center;
+        }
+		
+/* Headings */
+		h1
+        {
+           letter-spacing:0.5em;
+		   font-family:verdana;
+		   color:darkgreen;
+           text-align:center;
+        }
+		
+		h2,h3
+        {
+            font-family:verdana;
+			color:limegreen;
+        }
+        
+		h3
+		{
+			font-family:"comic sans ms";
+		}
+		
+/* Navigation */
+        nav
+        {
+            word-spacing:2em;
+        }
+		
+		.navspace
+		{
+			word-spacing:0.2em;
+		}
+		
+        a:link
+        {
+            color:black;
+            text-decoration:none;
+        }
+		
+        a:hover
+        {
+            color:white;
+			text-decoration:underline;
+        }
+		
+        a:active
+        {
+            color:black;
+			text-decoration:underline;
+        }
+		
+/* Main */
+		main
+		{
+			margin-top:1em;
+		}
+		
+/* Body */
+		 body
+        {
+            margin:3em;
+            margin-top:0em;
+            margin-bottom:5em;
+        }
+		
+/* Lists */
+		div>ul>li 
+		{
+			list-style-image:url('images/recycle_sm.jpg');
+			line-height:2.5em; 
+		}
+		
+		div>ul>li:last-of-type
+		{
+		list-style-image:url('images/greenarrow.png');
+		}
+		
+/* Footer */	
+		footer
+		{
+			padding-bottom:0.1em;
+			line-height:0.3em;
+			border-top:2px solid black;
+			background-image:url(images/ricepaper.png);
+			text-align:center;
+		}
+ 
+/* ID Types */
+		#space
+		{
+			font-family:verdana;
+			margin-top:2em;
+			margin-bottom:2em;
+		}
+		
+		#mapstyle
+		{
+			float:right;
+			margin-top:1em;
+		}
+		
+		#makecompost
+		{
+			background-color:darkgreen;
+			color:white;
+			text-decoration:none;
+		}
+		
+		#pickupcolor
+		{
+			color:limegreen;
+		}
+		
+		#contactus
+		{
+			color:limegreen;
+			font-size:1em;
+		}
+		
+/* Class Types */ 
+		.rDiv
+		{
+			display:flex;
+			align-items:center;
+			justify-content:center;
+		}
+		
+		.doubleU
+		{
+			text-decoration:underline;
+			text-decoration-style:double;
+		}
+		
+		.listcircle
+		{
+			list-style-type:circle;
+		}
+ 
+ 
+ 
+
+ 

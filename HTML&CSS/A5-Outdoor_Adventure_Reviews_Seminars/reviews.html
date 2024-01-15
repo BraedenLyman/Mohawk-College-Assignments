@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<!--
+			Outdoor Adventure Review page
+			Author: Braeden Lyman
+			Student Id: 000370695
+			File Name: reviews.html
+		-->
+		<meta charset="UTF-8">
+		<link href="adventurestyles.css" rel="stylesheet">
+		<link href="mobile.css" rel="Stylesheet">
+		<link href="printstyles.css" rel="stylesheet" media="print">
+		<title>Outdoor Adventure Reviews</title>
+		<style>
+			form
+			{
+				font-family: sans-serif;
+				background-color: RebeccaPurple;
+				border: 2px solid black;
+				margin-left: 10%;
+				margin-right: 10%;
+				padding: 15px;
+			}
+			fieldset
+			{
+				color: white;
+				border: 2px solid white;
+				margin: 10px;
+			}
+			legend
+			{
+				padding: 5px;
+				margin-left: 5px;
+			}
+			div#button
+			{
+				padding-left: 10px;
+			}
+			input[type='submit'], input[type='reset']
+			{
+				background-color: Orchid;
+				color: black;
+				padding: 5px;
+				font-weight: bold;
+			}
+			div.formRow
+			{
+				margin: 5px;
+			}
+			#Fname,#Lname,#phone,#mail
+			{
+				background-color: orchid;
+				margin-left: 10px;
+			}
+			#BLTrip
+			{
+				display: block;
+				margin-left: auto;
+				margin-right: auto;
+				margin-top: 20px;
+				margin-bottom: 20px;
+			}
+		</style>
+	</head>
+	<body>
+		<header>
+			<h1>Outdoor Adventure Reviews</h1>
+			<h1>2022/2023</h1>
+		</header>
+		<nav class="no-print">
+			<ul>
+				<li><a href="#">About Us</a></li>
+				<li><a href="#">Travel</a></li>
+				<li><a href="#">Photos</a></li>
+				<li><a href="#">Shop</a></li>
+				<li><a href="reviews.html">Reviews</a></li>
+				<li><a href="seminars.html">Seminars</a></li>
+				<li><a href="#">Events</a></li>
+			</ul>
+		</nav>
+		<main>
+			<form id="survey" action="https://csunix.mohawkcollege.ca/tooltime/showit.pl" method="post">
+				<input name="formname" type="hidden" value="Braeden Lyman's Trip Review">
+				<fieldset id="custInfo">
+					<legend>About You (optional)</legend>
+						<div class="formRow">
+							<label for="TimeOfYear">I usually prefer to trips this time of year (select all that apply):</label><br>
+							<select name="TripYear" id="TimeOfYear" size="4" multiple>
+								<option value="Winter">Winter</option>
+								<option value="Spring">Spring</option>
+								<option value="Summer">Summer</option>
+								<option value="Fall">Fall</option>
+							</select>
+						</div>
+						<div class="formRow">
+							<label for="Fname">First Name</label>
+							<input name="custFirstName" id="Fname" type="text" 	maxlength="20">
+						</div>
+						<div class="formRow">
+							<label for="Lname">Last Name</label>
+							<input name="custLastName" id="Lname" type="text" maxlength="20">
+						</div>
+						<div class="formRow">
+							<label for="phone">Phone Number</label>
+							<input name="custPhoneNumber" id="phone" type="tel" placeholder="123-456-7890" minlength="12" maxlength="12">
+						</div>
+						<div class="formRow">
+							<label for="mail">Email Address</label>
+							<input name="custEmailAddress" id="mail" type="email" placeholder="name@example.com" maxlength="40">
+						</div>
+				</fieldset>
+				<fieldset>
+					<legend>Trip Reviews</legend>
+						<div class="formRow">
+							<select id="places" name="PlacesReview">
+								<option value="Alberta Rural">Alberta Rural</option>
+								<option value="B.C.Coast" selected>B.C. Coast</option>
+								<option value="OntarioLakeSuperior">Ontario Lake Superior</option>
+								<option value="PEI">PEI</option>
+								<option value="NovaScotiaCabotTrail">Nova Scotia Cabot Trail</option>
+							</select>
+							<select name="NuberOfDays" id="Days">
+								<option value="5D">5 Days</option>
+								<option value="7D">7 Days</option>
+								<option value="10D">10 Days</option>
+								<option value="14D">14 Days</option>
+							</select>
+						</div>
+						<div class="formRow">
+							<label>Your Rating:</label><br>
+							<input type="radio" id="Rating4" name="OveralRating" value="4" checked>
+							<label for="Rating4"><img src="images/wheel_sm.jpg" alt="4stars"> <img src="images/wheel_sm.jpg" alt="4stars"> <img src="images/wheel_sm.jpg" alt="4stars"> <img src="images/wheel_sm.jpg" alt="4stars"> </label><br>
+							<input type="radio" id="Rating3" name="OveralRating" value="3">
+							<label for="Rating3"><img src="images/wheel_sm.jpg" alt="3stars"> <img src="images/wheel_sm.jpg" alt="3stars"> <img src="images/wheel_sm.jpg" alt="3stars"></label><br>
+							<input type="radio" id="Rating2" name="OveralRating" value="2">
+							<label for="Rating2"><img src="images/wheel_sm.jpg" alt="2stars"> <img src="images/wheel_sm.jpg" alt="2stars"></label><br>
+							<input type="radio" id="Rating1" name="OveralRating" value="1">
+							<label for="Rating1"><img src="images/wheel_sm.jpg" alt="1stars"></label>
+						</div>
+						<div class="formRow">
+							<label for="commBox">Comments</label><br>
+							<textarea name="custComms" rows="7" cols="65" id="commBox"></textarea>
+						</div>
+				</fieldset>
+				<fieldset>
+					<legend>I would be interested in these trips: (check all that apply)</legend>
+						<div class="formRow">
+							<input type="checkbox" id="interest1" name="InterestedP" value="Sea_or_Lake_Coast">
+							<label for="interest1">Sea or Lake Coast</label><br>
+							<input type="checkbox" id="interest2" name="InterestedP" value="Rural">
+							<label for="interest2">Rural</label><br>
+							<input type="checkbox" id="interest3" name="InterestedP" value="Mountains" checked>
+							<label for="interest3">Mountains</label><br>
+							<input type="checkbox" id="interest4" name="InterestedP" value="Other">
+							<label for="interest4">Other (please specify)</label> <input name="OtherInt" id="OtherTxt" type="text">
+						</div>
+				</fieldset>
+						<div id="button">
+							<input type="Submit" value="SEND REVIEW">
+							<input type="reset" value="CANCEL">
+						</div>
+			</form>
+			<img id="BLTrip" src="images/BraedenLymanTripReview.png" alt="BraedenLymanTripReviewData">
+		</main>
+		<footer class="no-print">
+			<img src="images/outdooradventurehorizontal.png" alt="footerimg">
+		</footer>
+	</body>
+</html>

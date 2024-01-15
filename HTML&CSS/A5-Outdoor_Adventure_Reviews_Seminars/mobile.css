@@ -1,0 +1,113 @@
+@charset "UTF-8";
+
+/*
+	Stylesheet for Outdoor Adventure Seminars/Reviews
+	Author: Braeden Lyman
+	Student Id: 000370695
+	File Name: mobile.css
+*/
+
+*
+ {
+	 margin: 0;
+	 padding: 0;
+ }
+/*Navagation Styles*/
+
+@media(max-width: 599px){
+
+nav li
+{
+	display: grid;
+	grid-row: auto;
+	list-style: none;
+	margin-left: 1em;
+	margin-right: 1em;
+}
+
+nav a
+{
+	background-color: MediumSlateBlue;
+	color: white;
+	padding: 2px;
+	text-align: center;
+	text-decoration: none;
+	padding: 20px;
+	border: 3px solid black;
+	border-bottom: none;
+	border-radius: 10px 10px 0 0;
+	justify-content: space-evenly;
+}
+}
+
+
+@media (max-width: 899px) and (min-width: 600px){
+
+
+nav ul
+{
+	display: grid;
+	grid-template-columns: repeat(4,1fr);
+	grid-template-rows: auto auto;
+	justify-content: center;
+	align-content: center;
+	list-style: none;
+	margin-left: 2em;
+	margin-right: 2em;
+	
+	
+}	
+
+
+nav a
+{
+	display: block;
+	background-color: MediumSlateBlue;
+	color: white;
+	padding: 2px;
+	align-items: center;
+	text-align: center;
+	text-decoration: none;
+	padding: 20px;
+	border: 3px solid black;
+	border-bottom: none;
+	border-radius: 10px 10px 0 0;
+	margin-left: 10px;
+	margin-right: 10px;
+
+}
+
+}
+
+@media (min-width: 900px){
+	
+nav ul
+{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	list-style: none;
+	margin-left: 2em;
+	margin-right: 2em;
+	margin-bottom: 20px;
+	
+}
+
+nav a
+{
+	background-color: MediumSlateBlue;
+	color: white;
+	font-family: sans-serif;
+	text-align: center;
+	font-size: 20px;
+	word-spacing: 3px;
+	text-decoration: none;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border: 3px solid black;
+	border-bottom: none;
+	border-radius: 10px 10px 0 0;
+}
+}
