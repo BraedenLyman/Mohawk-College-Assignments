@@ -1,0 +1,10 @@
+D:\Microsoft Visual Studio - files\Lab4b\Lab4b\bin\Debug\Lab4b.exe.config
+D:\Microsoft Visual Studio - files\Lab4b\Lab4b\bin\Debug\Lab4b.exe
+D:\Microsoft Visual Studio - files\Lab4b\Lab4b\bin\Debug\Lab4b.pdb
+D:\Microsoft Visual Studio - files\Lab4b\Lab4b\obj\Debug\Lab4b.csproj.AssemblyReference.cache
+D:\Microsoft Visual Studio - files\Lab4b\Lab4b\obj\Debug\Lab4b.Properties.Resources.resources
+D:\Microsoft Visual Studio - files\Lab4b\Lab4b\obj\Debug\Lab4b.csproj.GenerateResource.cache
+D:\Microsoft Visual Studio - files\Lab4b\Lab4b\obj\Debug\Lab4b.csproj.CoreCompileInputs.cache
+D:\Microsoft Visual Studio - files\Lab4b\Lab4b\obj\Debug\Lab4b.exe
+D:\Microsoft Visual Studio - files\Lab4b\Lab4b\obj\Debug\Lab4b.pdb
+D:\Microsoft Visual Studio - files\Lab4b\Lab4b\obj\Debug\Lab4b.BraedensFileCheckerApp.resources

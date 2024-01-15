@@ -1,0 +1,14 @@
+C:\Users\braed\Downloads\Lab1 (3)\Lab1\Lab1\bin\Debug\Lab1.exe.config
+C:\Users\braed\Downloads\Lab1 (3)\Lab1\Lab1\bin\Debug\Lab1.exe
+C:\Users\braed\Downloads\Lab1 (3)\Lab1\Lab1\bin\Debug\Lab1.pdb
+C:\Users\braed\Downloads\Lab1 (3)\Lab1\Lab1\obj\Debug\Lab4a.csproj.AssemblyReference.cache
+C:\Users\braed\Downloads\Lab1 (3)\Lab1\Lab1\obj\Debug\Lab4a.csproj.CoreCompileInputs.cache
+C:\Users\braed\Downloads\Lab1 (3)\Lab1\Lab1\obj\Debug\Lab1.exe
+C:\Users\braed\Downloads\Lab1 (3)\Lab1\Lab1\obj\Debug\Lab1.pdb
+C:\Users\braed\Downloads\Lab4a\Lab4a\Lab1\bin\Debug\Lab4a.exe.config
+C:\Users\braed\Downloads\Lab4a\Lab4a\Lab1\bin\Debug\Lab4a.exe
+C:\Users\braed\Downloads\Lab4a\Lab4a\Lab1\bin\Debug\Lab4a.pdb
+C:\Users\braed\Downloads\Lab4a\Lab4a\Lab1\obj\Debug\Lab4a.csproj.AssemblyReference.cache
+C:\Users\braed\Downloads\Lab4a\Lab4a\Lab1\obj\Debug\Lab4a.csproj.CoreCompileInputs.cache
+C:\Users\braed\Downloads\Lab4a\Lab4a\Lab1\obj\Debug\Lab4a.exe
+C:\Users\braed\Downloads\Lab4a\Lab4a\Lab1\obj\Debug\Lab4a.pdb
